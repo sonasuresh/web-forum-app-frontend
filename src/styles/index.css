@@ -1,0 +1,98 @@
+.bg-violet {
+	background-color: #8c14fc;
+}
+
+.btn-violet {
+	background-color: #8c14fc;
+}
+.floatright{
+	float: right;
+	position: absolute;
+}
+.btn-outline-violet {
+	border: 1px solid #8c14fc;
+}
+.size{
+	width:500px;
+}
+.align{
+	margin-left:400px;
+}
+.pill-button {
+	border-radius: 5rem;
+}
+
+.text-violet {
+	color: #8c14fc;
+}
+
+.clickable-icon {
+	cursor: pointer;
+}
+
+.navbar-bg {
+	background: #fc466b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#3f5efb,
+		#fc466b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#3f5efb,
+		#fc466b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+textarea {
+	resize: vertical !important;
+}
+
+.login-bg {
+	background: #fe8c00; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#f83600,
+		#fe8c00
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#f83600,
+		#fe8c00
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.placeholder-colored::placeholder {
+	color: white;
+}
+.placeholder-colored::ms-input-placeholder {
+	color: red;
+}
+
+.rounded {
+	border-radius: 2.5rem;
+}
+.link-button{
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.float{
+	margin-left: 950px;
+}
+.style-icon{
+	color: red; 
+	font-size: 20px; 
+}
+.btn-color{
+	background-color:transparent
+}
+.floatright{
+	margin-left: 280px;
+}
