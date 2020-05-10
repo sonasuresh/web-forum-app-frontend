@@ -20,7 +20,7 @@ function PostCard(props) {
                     /> */}
                 </h4>
                 <hr />
-                <img src={`http://localhost:4000/post/download/${props.image}.png`} alt="No Image Preview" class="centerAlign" width="400" height="200" />
+                <img src={`https://post-in-backend.herokuapp.com/post/download/${props.image}.png`} alt="No Image Preview" class="centerAlign" width="400" height="200" />
                 <p className="card-text">{props.description}</p>
                 <button className="link-button"
                     data-toggle="modal"

@@ -17,6 +17,7 @@ export default class RegisterView extends Component {
         const { username, password, email, file } = this.state
         //console.log(file)
         if (username === '' && password === '' && email === '') {
+            console.log(username, password, email)
             alert('Cannot proceed without username and/or password')
         } else {
             try {
