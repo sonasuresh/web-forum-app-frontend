@@ -34,7 +34,7 @@ class MyPostView extends Component {
             this.setState(currentState)
             console.log(results.data.message)
         } catch (error) {
-            toast.error('An error Occured. Try Again')
+
         }
     }
     handleDeletePost = async (postId) => {

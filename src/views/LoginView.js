@@ -38,7 +38,7 @@ export default class LoginView extends Component {
             <div className="pt-5 login-bg text-white h-100">
                 <div className="text-center">
                     <div className="display-4">Welcome to </div>
-                    <div className="display-1"> Postifi</div>
+                    <div className="display-1"> PostIn</div>
                     <h3>An One step solution to share your thoughts</h3>
                     <div style={{ fontSize: 20 }} className="mt-5">
                         <div style={{ marginLeft: 600, marginRight: 600 }}>
